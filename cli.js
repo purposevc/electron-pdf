@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var path = require('path')
 var spawn = require('child_process').spawn
-var electronPath = require('electron')
+var electronPath = require('electron').remote
 
 var args = process.argv.slice(2)
 
